@@ -10,6 +10,7 @@ import {
 import {useStateContext} from "../../context/StateContext"
 
 import 'react-toastify/dist/ReactToastify.css';
+import Link from "next/link";
   
 const ProductDetails = ({ product, products }) => {
   const { image, name, details, price } = product;
